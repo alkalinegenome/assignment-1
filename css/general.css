@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { 
+	background-color: #330000;
+	padding: 6rem 12.2%;
+}
+
+p {
+	font-size: 2rem;
+	line-height:2.5rem;
+}
+
+strong{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9rem;
+	color: #cc3366;
+	margin-left:-5.5rem;
+	position:relative;
+}
+
+strong:first-child {
+	position:absolute;
+	top:16rem;
+}
+
+strong:last-child {
+	float:right;
+	padding-top:2rem;
+	margin-right:-5.5rem;
+}
+
+blockquote {
+	margin-top: 4rem;
+	padding: 2rem 7.25rem 6rem;
+	border-radius: 1rem;
+	background-color: #990066;
+	color: #ffffff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+cite {
+	color: #ff99cc;
+	font-size: 2rem;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:normal;
+	float:right;
+}
